@@ -62,4 +62,4 @@ def employee_delete(request, id):
         return Response({"error": "Object not found"}, status=status.HTTP_404_NOT_FOUND)
 
     employee.delete()
-    return Response({"Deleted": True}, status=status.HTTP_200_OK)
+    return Response({"Deleted": True}, status=status.HTTP_204_NO_CONTENT)
