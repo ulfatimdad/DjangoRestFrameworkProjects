@@ -4,7 +4,7 @@ from rest_framework.response import Response
 
 
 from api.models import Employee
-from api.serializer import EmployeeSerializer, EmployeeListSerializer
+from api.serializers import EmployeeSerializer, EmployeeListSerializer
 
 
 @api_view(["GET"])

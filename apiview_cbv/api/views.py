@@ -4,7 +4,7 @@ from rest_framework import status
 
 
 from api.models import Employee
-from api.serializer import EmployeeListSerializer, EmployeeSerializer
+from api.serializers import EmployeeListSerializer, EmployeeSerializer
 
 
 class StudentAPI(APIView):
